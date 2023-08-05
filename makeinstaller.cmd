@@ -1,2 +1,2 @@
-pyinstaller.exe --onefile QRscan.py
+pyinstaller.exe --add-binary %USERPROFILE%\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyzbar\libiconv.dll;. --add-binary %USERPROFILE%\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyzbar\libzbar-64.dll;. --onefile QRscan.py
 pause
